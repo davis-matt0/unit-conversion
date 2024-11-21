@@ -11,7 +11,7 @@ body {
   text-align: center;
   background-color: #1f2937;
   width: 35%;
-  margin: 5em auto 0 auto;
+  margin: 4em auto 0 auto;
 }
 
 .input-area {
@@ -29,7 +29,7 @@ body {
 input {
   display: block;
   margin: 0 auto 0.5em auto;
-  max-width: 150px;
+  max-width: 125px;
   background-color: #6943ff;
   border: 2px solid #b295ff;
   border-radius: 5px;
@@ -37,6 +37,7 @@ input {
   font-size: 3.625rem;
   font-weight: 900;
   text-align: center;
+  line-height: 1.5;
 }
 
 input::-webkit-outer-spin-button,
@@ -54,23 +55,34 @@ input:focus {
 
 .convert-btn {
   font-size: 1rem;
-  font-family: "Inter";
-  padding: 1em 2.75em;
+  font-family: "Inter", sans-serif;
+  padding: 0.75em 2em;
   margin: 0.5em 0;
   background-color: white;
   color: #3d3d3d;
   border: none;
   border-radius: 5px;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .options {
   background-color: #f4f4f4;
-  padding: 3em;
+  padding: 3em 1.5em;
 }
 
 .option {
   background-color: white;
   padding: 1em 2em;
   margin-bottom: 1.5em;
+}
+
+h2 {
+  color: #5a537b;
+  font-size: 1.25rem;
+  margin-bottom: 0;
+}
+
+p {
+  font-size: 0.875rem;
+  color: #353535;
 }
