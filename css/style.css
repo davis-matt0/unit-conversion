@@ -1,0 +1,76 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 5em 0 0 0;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  background-color: #1f2937;
+  width: 35%;
+  margin: 5em auto 0 auto;
+}
+
+.input-area {
+  margin: 0;
+  background-color: #6943ff;
+  padding: 2.5em;
+}
+
+.title {
+  color: white;
+  font-size: 1.75rem;
+  margin-top: 0;
+}
+
+input {
+  display: block;
+  margin: 0 auto 0.5em auto;
+  max-width: 150px;
+  background-color: #6943ff;
+  border: 2px solid #b295ff;
+  border-radius: 5px;
+  color: white;
+  font-size: 3.625rem;
+  font-weight: 900;
+  text-align: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+input:focus {
+  outline: none;
+}
+
+.convert-btn {
+  font-size: 1rem;
+  font-family: "Inter";
+  padding: 1em 2.75em;
+  margin: 0.5em 0;
+  background-color: white;
+  color: #3d3d3d;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.options {
+  background-color: #f4f4f4;
+  padding: 3em;
+}
+
+.option {
+  background-color: white;
+  padding: 1em 2em;
+  margin-bottom: 1.5em;
+}
