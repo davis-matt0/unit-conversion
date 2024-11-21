@@ -65,12 +65,12 @@ input:focus {
   font-weight: 500;
 }
 
-.options {
+.conversions {
   background-color: #f4f4f4;
   padding: 3em 1.5em;
 }
 
-.option {
+.conversion-box {
   background-color: white;
   padding: 1em 2em;
   margin-bottom: 1.5em;
