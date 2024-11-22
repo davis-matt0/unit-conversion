@@ -1,2 +1,3 @@
 # unit-conversion
-a page for converting units between imperial and metric
+
+a page for converting measurements between Imperial and Metric
